@@ -5,15 +5,6 @@ const speed = 50;
 function typeEffect() {
     if (i < introText.length) {
         let char = introText.charAt(i);
-
-        if (char === "\n") {
-            document.getElementById("intro-text").innerHTML += "<br>";
-        }   else {
-            document.getElementById("intro-text").innerHTML += char;
-        }
-        
-        i++;
-        setTimeout{typeEffect, speed};
     }
 }
 
