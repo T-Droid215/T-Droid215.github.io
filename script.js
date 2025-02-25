@@ -11,7 +11,7 @@ function typeEffect() {
         }   else {
             document.getElementById("intro-text").innerHTML += char;
         }
-
+        
         i++;
         setTimeout{typeEffect, speed};
     }
