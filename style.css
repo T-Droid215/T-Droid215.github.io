@@ -12,10 +12,10 @@ body {
 }
 
 .terminal {
-    background: rgba(0, 0, 0, 0.0)
+    background: rgba(0, 0, 0, 0.8);
     padding: 20px;
-    border: 2px solid #ff0000;
-    box-shadow: 0px 0px 10px #ff0000;
+    border: 2px solid red;
+    box-shadow: 0px 0px 10px red;
 }
 
 .btn {
